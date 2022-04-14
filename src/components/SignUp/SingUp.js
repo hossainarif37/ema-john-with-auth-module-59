@@ -44,7 +44,7 @@ const SingUp = () => {
     return (
         <div className='form-container'>
             <div>
-                <h1 className='form-title'>Login</h1>
+                <h1 className='form-title'>Create Account</h1>
                 <form onSubmit={handleCreateUser}>
                     <div className="input-group">
                         <label htmlFor="email">Email</label>

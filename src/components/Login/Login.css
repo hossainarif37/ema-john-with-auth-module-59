@@ -1,0 +1,86 @@
+.form-container {
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 0 30px;
+}
+
+.form-title {
+    font-weight: 400;
+    font-size: 30px;
+    color: #2A414F;
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    display: block;
+    width: 97%;
+    border-radius: 5px;
+    padding: 10px 5px;
+    outline: none;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.form-submit {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px 10px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-size: 16px;
+    transition: .3s;
+    margin-top: 30px;
+    outline: none;
+}
+
+
+
+.form-submit:hover {
+    background-color: #1C2B35;
+    cursor: pointer;
+}
+
+.underline {
+    width: 145px;
+    height: 1px;
+    background: #c0c5c9;
+}
+
+.underline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 20px 0;
+}
+
+.underline-text {
+    color: #777;
+}
+
+.google-button {
+    width: 100%;
+    border: 1px solid #ddd;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #1C2B35;
+    margin-bottom: 30px;
+}
+
+.google-button:hover {
+    cursor: pointer;
+}
